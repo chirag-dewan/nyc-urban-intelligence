@@ -1,0 +1,14 @@
+# Ignore all
+cat > .gitignore << 'EOF'
+node_modules/
+npm-debug.log*
+.env
+.env.local
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.tmp
+*.temp
+EOF
