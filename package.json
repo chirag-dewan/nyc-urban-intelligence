@@ -4,22 +4,22 @@
     "description": "Real-time urban intelligence platform for NYC",
     "main": "quick-test.js",
     "scripts": {
-      "test": "node quick-test.js",
-      "dev": "node quick-test.js"
+        "test": "node quick-test.js",
+        "dev": "node quick-test.js"
     },
     "dependencies": {
-      "axios": "^1.6.0",
-      "protobufjs": "^7.2.0",
-      "winston": "^3.11.0",
-      "dotenv": "^16.3.0",
-      "kafka-node": "^5.0.0"
+        "axios": "^1.10.0",
+        "dotenv": "^16.3.0",
+        "kafka-node": "^5.0.0",
+        "protobufjs": "^7.2.0",
+        "winston": "^3.11.0"
     },
     "keywords": [
-      "urban-intelligence",
-      "nyc",
-      "mta",
-      "real-time"
+        "urban-intelligence",
+        "nyc",
+        "mta",
+        "real-time"
     ],
     "author": "Urban Intelligence Team",
     "license": "MIT"
-  }
+}
